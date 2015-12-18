@@ -1,0 +1,2 @@
+/usr/bin/ar cq libmodules__uORB.a  CMakeFiles/modules__uORB.dir/objects_common.cpp.o CMakeFiles/modules__uORB.dir/uORBUtils.cpp.o CMakeFiles/modules__uORB.dir/uORB.cpp.o CMakeFiles/modules__uORB.dir/uORBMain.cpp.o CMakeFiles/modules__uORB.dir/Publication.cpp.o CMakeFiles/modules__uORB.dir/Subscription.cpp.o CMakeFiles/modules__uORB.dir/uORBDevices_posix.cpp.o CMakeFiles/modules__uORB.dir/uORBManager_posix.cpp.o CMakeFiles/modules__uORB.dir/uORBTest_UnitTest.cpp.o
+/usr/bin/ranlib libmodules__uORB.a

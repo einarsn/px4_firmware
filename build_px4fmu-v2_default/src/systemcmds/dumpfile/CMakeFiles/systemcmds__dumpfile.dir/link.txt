@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libsystemcmds__dumpfile.a  CMakeFiles/systemcmds__dumpfile.dir/dumpfile.c.obj
+/usr/bin/arm-none-eabi-ranlib libsystemcmds__dumpfile.a

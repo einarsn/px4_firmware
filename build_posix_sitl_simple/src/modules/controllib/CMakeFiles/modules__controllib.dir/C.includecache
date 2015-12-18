@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/modules/systemlib/param/param.h
+stdint.h
+-
+stdbool.h
+-
+sys/types.h
+-
+
+/home/einar/px4_firmware/src/Firmware/src/modules/controllib/test_params.c
+systemlib/param/param.h
+-
+

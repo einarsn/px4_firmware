@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libdrivers__oreoled.a  CMakeFiles/drivers__oreoled.dir/oreoled.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libdrivers__oreoled.a

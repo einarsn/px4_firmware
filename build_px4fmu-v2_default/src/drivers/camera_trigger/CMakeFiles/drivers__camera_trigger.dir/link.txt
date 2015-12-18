@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libdrivers__camera_trigger.a  CMakeFiles/drivers__camera_trigger.dir/camera_trigger.cpp.obj CMakeFiles/drivers__camera_trigger.dir/camera_trigger_params.c.obj
+/usr/bin/arm-none-eabi-ranlib libdrivers__camera_trigger.a

@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libmodules__position_estimator_inav.a  CMakeFiles/modules__position_estimator_inav.dir/position_estimator_inav_main.c.obj CMakeFiles/modules__position_estimator_inav.dir/position_estimator_inav_params.c.obj CMakeFiles/modules__position_estimator_inav.dir/inertial_filter.c.obj
+/usr/bin/arm-none-eabi-ranlib libmodules__position_estimator_inav.a

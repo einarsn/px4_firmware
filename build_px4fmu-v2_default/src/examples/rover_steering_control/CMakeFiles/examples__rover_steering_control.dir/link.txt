@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libexamples__rover_steering_control.a  CMakeFiles/examples__rover_steering_control.dir/main.cpp.obj CMakeFiles/examples__rover_steering_control.dir/params.c.obj
+/usr/bin/arm-none-eabi-ranlib libexamples__rover_steering_control.a

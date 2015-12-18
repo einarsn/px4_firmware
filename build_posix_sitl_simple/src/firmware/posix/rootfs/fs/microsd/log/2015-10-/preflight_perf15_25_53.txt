@@ -1,0 +1,28 @@
+PERFORMANCE COUNTERS PRE-FLIGHT
+
+sd write: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+mavlink_txe: 0 events
+mavlink_el: 10920 events, 0 overruns, 15843us elapsed, 1us avg, min 1us max 1076us 11.664us rms
+mc_att_control: 817 events, 0 overruns, 5123us elapsed, 6us avg, min 2us max 263us 11.419us rms
+navigator: 67 events, 0 overruns, 347us elapsed, 5us avg, min 1us max 40us 7.062us rms
+sensor task update: 1394 events, 0 overruns, 8884us elapsed, 6us avg, min 1us max 164us 8.825us rms
+adc_samples: 725 events, 0 overruns, 45us elapsed, 0us avg, min 0us max 1us 0.241us rms
+barosim_buffer_overflows: 202 events
+barosim_comms_errors: 0 events
+barosim_measure: 277 events, 0 overruns, 33us elapsed, 0us avg, min 1us max 1us 0.325us rms
+barosim_read: 276 events, 0 overruns, 510us elapsed, 1us avg, min 1us max 17us 2.427us rms
+sim_bad_values: 0 events
+sim_bad_registers: 0 events
+sim_accel_resched: 0 events
+sim_mag_read: 289 events, 0 overruns, 260us elapsed, 0us avg, min 1us max 5us 0.768us rms
+sim_accel_read: 2311 events, 0 overruns, 3578us elapsed, 1us avg, min 1us max 67us 2.679us rms
+ctrl_latency: 764 events, 0 overruns, 75278us elapsed, 98us avg, min 24us max 1581us 153.904us rms
+sys_latency: 0 events, 0 overruns, 0us elapsed, 0us avg, min 0us max 0us 0.000us rms
+gyrosim_reset_retries: 0 events
+gyrosim_good_transfers: 0 events
+gyrosim_read: 1496 events, 0 overruns, 7986us elapsed, 5us avg, min 1us max 479us 15.880us rms
+gyrosim_gyro_read: 0 events
+gyrosim_accel_read: 0 events
+
+LOAD PRE-FLIGHT
+

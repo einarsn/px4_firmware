@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libsystemcmds__esc_calib.a  CMakeFiles/systemcmds__esc_calib.dir/esc_calib.c.obj
+/usr/bin/arm-none-eabi-ranlib libsystemcmds__esc_calib.a

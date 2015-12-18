@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libdrivers__stm32.a  CMakeFiles/drivers__stm32.dir/drv_hrt.c.obj CMakeFiles/drivers__stm32.dir/drv_pwm_servo.c.obj
+/usr/bin/arm-none-eabi-ranlib libdrivers__stm32.a

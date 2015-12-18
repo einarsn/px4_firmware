@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libdrivers__mpu9250.a  CMakeFiles/drivers__mpu9250.dir/mpu9250.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libdrivers__mpu9250.a

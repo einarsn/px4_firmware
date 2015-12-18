@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_ekf/codegen/AttitudeEKF.c
+AttitudeEKF.h
+/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_ekf/codegen/AttitudeEKF.h
+
+/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_ekf/codegen/AttitudeEKF.h
+math.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+rtwtypes.h
+/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_ekf/codegen/rtwtypes.h
+AttitudeEKF_types.h
+/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_ekf/codegen/AttitudeEKF_types.h
+
+/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_ekf/codegen/AttitudeEKF_types.h
+rtwtypes.h
+/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_ekf/codegen/rtwtypes.h
+
+/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_ekf/codegen/rtwtypes.h
+limits.h
+-
+

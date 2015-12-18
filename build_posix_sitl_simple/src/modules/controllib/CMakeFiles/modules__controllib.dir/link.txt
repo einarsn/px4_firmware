@@ -1,0 +1,2 @@
+/usr/bin/ar cq libmodules__controllib.a  CMakeFiles/modules__controllib.dir/controllib_test_main.cpp.o CMakeFiles/modules__controllib.dir/test_params.c.o CMakeFiles/modules__controllib.dir/block/Block.cpp.o CMakeFiles/modules__controllib.dir/block/BlockParam.cpp.o CMakeFiles/modules__controllib.dir/uorb/blocks.cpp.o CMakeFiles/modules__controllib.dir/blocks.cpp.o
+/usr/bin/ranlib libmodules__controllib.a

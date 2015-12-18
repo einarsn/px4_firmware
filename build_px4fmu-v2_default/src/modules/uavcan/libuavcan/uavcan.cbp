@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="uavcan" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\modules\;CMake Files\src\modules\uavcan\;CMake Files\src\modules\uavcan\libuavcan\;CMake Files\src\modules\uavcan\libuavcan\libuavcan\;CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\;CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\;CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\;CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\;CMake Files\src\modules\sensors\;CMake Files\src\modules\commander\;CMake Files\src\modules\navigator\;CMake Files\src\modules\mavlink\;CMake Files\src\modules\gpio_led\;CMake Files\src\modules\land_detector\;CMake Files\src\modules\attitude_estimator_q\;CMake Files\src\modules\ekf_att_pos_estimator\;CMake Files\src\modules\position_estimator_inav\;CMake Files\src\modules\fw_pos_control_l1\;CMake Files\src\modules\fw_att_control\;CMake Files\src\modules\mc_att_control\;CMake Files\src\modules\mc_pos_control\;CMake Files\src\modules\vtol_att_control\;CMake Files\src\modules\sdlog2\;CMake Files\src\modules\param\;CMake Files\src\modules\systemlib\;CMake Files\src\modules\systemlib\mixer\;CMake Files\src\modules\controllib\;CMake Files\src\modules\uORB\;CMake Files\src\modules\dataman\;CMake Files\src\modules\bottle_drop\;CMake Files\src\modules\px4iofirmware\;CMake Files\src\drivers\;CMake Files\src\drivers\device\;CMake Files\src\drivers\stm32\;CMake Files\src\drivers\stm32\adc\;CMake Files\src\drivers\stm32\tone_alarm\;CMake Files\src\drivers\led\;CMake Files\src\drivers\px4fmu\;CMake Files\src\drivers\px4io\;CMake Files\src\drivers\boards\;CMake Files\src\drivers\boards\px4fmu-v2\;CMake Files\src\drivers\rgbled\;CMake Files\src\drivers\mpu6000\;CMake Files\src\drivers\mpu9250\;CMake Files\src\drivers\lsm303d\;CMake Files\src\drivers\l3gd20\;CMake Files\src\drivers\hmc5883\;CMake Files\src\drivers\ms5611\;CMake Files\src\drivers\mb12xx\;CMake Files\src\drivers\srf02\;CMake Files\src\drivers\sf0x\;CMake Files\src\drivers\ll40ls\;CMake Files\src\drivers\trone\;CMake Files\src\drivers\gps\;CMake Files\src\drivers\pwm_out_sim\;CMake Files\src\drivers\hott\;CMake Files\src\drivers\hott\hott_telemetry\;CMake Files\src\drivers\hott\hott_sensors\;CMake Files\src\drivers\blinkm\;CMake Files\src\drivers\airspeed\;CMake Files\src\drivers\ets_airspeed\;CMake Files\src\drivers\meas_airspeed\;CMake Files\src\drivers\frsky_telemetry\;CMake Files\src\drivers\px4flow\;CMake Files\src\drivers\oreoled\;CMake Files\src\drivers\gimbal\;CMake Files\src\drivers\pwm_input\;CMake Files\src\drivers\camera_trigger\;CMake Files\src\systemcmds\;CMake Files\src\systemcmds\bl_update\;CMake Files\src\systemcmds\mixer\;CMake Files\src\systemcmds\param\;CMake Files\src\systemcmds\perf\;CMake Files\src\systemcmds\pwm\;CMake Files\src\systemcmds\esc_calib\;CMake Files\src\systemcmds\reboot\;CMake Files\src\systemcmds\top\;CMake Files\src\systemcmds\config\;CMake Files\src\systemcmds\nshterm\;CMake Files\src\systemcmds\mtd\;CMake Files\src\systemcmds\dumpfile\;CMake Files\src\systemcmds\ver\;CMake Files\src\lib\;CMake Files\src\lib\mathlib\;CMake Files\src\lib\mathlib\math\;CMake Files\src\lib\mathlib\math\filter\;CMake Files\src\lib\ecl\;CMake Files\src\lib\external_lgpl\;CMake Files\src\lib\geo\;CMake Files\src\lib\geo_lookup\;CMake Files\src\lib\conversion\;CMake Files\src\lib\launchdetection\;CMake Files\src\platforms\;CMake Files\src\platforms\nuttx\;CMake Files\src\platforms\nuttx\px4_layer\;CMake Files\src\platforms\common\;CMake Files\src\examples\;CMake Files\src\examples\rover_steering_control\;CMake Files\src\firmware\;CMake Files\src\firmware\nuttx\;CMake Files\cmake\;CMake Files\cmake\configs\;CMake Files\cmake\nuttx\;CMake Files\cmake\common\;CMake Files\cmake\toolchains\;CMake Files\cmake\templates\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libuavcan_dsdlc">
+         <Option working_dir="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 libuavcan_dsdlc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uavcan">
+         <Option output="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/libuavcan.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCONFIG_ARCH_BOARD_PX4FMU_V2" />
+            <Add option="-D__PX4_NUTTX" />
+            <Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP03" />
+            <Add option="-DUAVCAN_MAX_NETWORK_SIZE_HINT=16" />
+            <Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48" />
+            <Add option="-DUAVCAN_NO_ASSERTIONS" />
+            <Add option="-DUAVCAN_PLATFORM=stm32" />
+            <Add option="-DUAVCAN_STM32_NUTTX=1" />
+            <Add option="-DUAVCAN_STM32_NUM_IFACES=2" />
+            <Add option="-DUAVCAN_STM32_TIMER_NUMBER=5" />
+            <Add option="-DUAVCAN_USE_CPP03=ON" />
+            <Add option="-DUAVCAN_USE_EXTERNAL_SNPRINT" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/external/Install/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/arch/chip" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/arch/common" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/include/cxx" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/px4_messages" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/mavlink/include/mavlink" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/drivers/boards/px4fmu-v2" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/lib" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/lib/eigen" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/./libuavcan/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/./libuavcan/include/dsdlc_generated" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/include/dsdlc_generated" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/platforms" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 uavcan" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uavcan/fast">
+         <Option output="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/libuavcan.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCONFIG_ARCH_BOARD_PX4FMU_V2" />
+            <Add option="-D__PX4_NUTTX" />
+            <Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP03" />
+            <Add option="-DUAVCAN_MAX_NETWORK_SIZE_HINT=16" />
+            <Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48" />
+            <Add option="-DUAVCAN_NO_ASSERTIONS" />
+            <Add option="-DUAVCAN_PLATFORM=stm32" />
+            <Add option="-DUAVCAN_STM32_NUTTX=1" />
+            <Add option="-DUAVCAN_STM32_NUM_IFACES=2" />
+            <Add option="-DUAVCAN_STM32_TIMER_NUMBER=5" />
+            <Add option="-DUAVCAN_USE_CPP03=ON" />
+            <Add option="-DUAVCAN_USE_EXTERNAL_SNPRINT" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/external/Install/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/arch/chip" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/arch/common" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/include/cxx" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/px4_messages" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/mavlink/include/mavlink" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/drivers/boards/px4fmu-v2" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/lib" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/lib/eigen" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/./libuavcan/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/./libuavcan/include/dsdlc_generated" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/include/dsdlc_generated" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/platforms" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 uavcan/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uavcan_stm32_driver">
+         <Option output="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/libuavcan_stm32_driver.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCONFIG_ARCH_BOARD_PX4FMU_V2" />
+            <Add option="-D__PX4_NUTTX" />
+            <Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP03" />
+            <Add option="-DUAVCAN_MAX_NETWORK_SIZE_HINT=16" />
+            <Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48" />
+            <Add option="-DUAVCAN_NO_ASSERTIONS" />
+            <Add option="-DUAVCAN_PLATFORM=stm32" />
+            <Add option="-DUAVCAN_STM32_NUTTX=1" />
+            <Add option="-DUAVCAN_STM32_NUM_IFACES=2" />
+            <Add option="-DUAVCAN_STM32_TIMER_NUMBER=5" />
+            <Add option="-DUAVCAN_USE_CPP03=ON" />
+            <Add option="-DUAVCAN_USE_EXTERNAL_SNPRINT" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/external/Install/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/arch/chip" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/arch/common" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/include/cxx" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/px4_messages" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/mavlink/include/mavlink" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/drivers/boards/px4fmu-v2" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/lib" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/lib/eigen" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/./libuavcan/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/./libuavcan/include/dsdlc_generated" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/./include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/platforms" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/Makefile&quot;  VERBOSE=1 uavcan_stm32_driver" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uavcan_stm32_driver/fast">
+         <Option output="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/libuavcan_stm32_driver.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCONFIG_ARCH_BOARD_PX4FMU_V2" />
+            <Add option="-D__PX4_NUTTX" />
+            <Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP03" />
+            <Add option="-DUAVCAN_MAX_NETWORK_SIZE_HINT=16" />
+            <Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48" />
+            <Add option="-DUAVCAN_NO_ASSERTIONS" />
+            <Add option="-DUAVCAN_PLATFORM=stm32" />
+            <Add option="-DUAVCAN_STM32_NUTTX=1" />
+            <Add option="-DUAVCAN_STM32_NUM_IFACES=2" />
+            <Add option="-DUAVCAN_STM32_TIMER_NUMBER=5" />
+            <Add option="-DUAVCAN_USE_CPP03=ON" />
+            <Add option="-DUAVCAN_USE_EXTERNAL_SNPRINT" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/external/Install/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/arch/chip" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/arch/common" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/px4fmu-v2/NuttX/nuttx-export/include/cxx" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/px4_messages" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/mavlink/include/mavlink" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/drivers/boards/px4fmu-v2" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/lib" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/lib/eigen" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/./libuavcan/include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/./libuavcan/include/dsdlc_generated" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/./include" />
+            <Add directory="/home/einar/px4_firmware/src/Firmware/src/platforms" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/Makefile&quot;  VERBOSE=1 uavcan_stm32_driver/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/einar/px4_firmware/src/Firmware/build_px4fmu-v2_default/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/driver/uc_can.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/marshal/uc_bit_array_copy.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/marshal/uc_bit_stream.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/marshal/uc_float_spec.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/marshal/uc_scalar_codec.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/node/uc_generic_publisher.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/node/uc_generic_subscriber.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/node/uc_global_data_type_registry.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/node/uc_scheduler.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/node/uc_service_client.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/node/uc_timer.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/protocol/uc_dynamic_node_id_client.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/protocol/uc_node_status_provider.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_can_acceptance_filter_configurator.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_can_io.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_crc.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_dispatcher.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_frame.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_outgoing_transfer_registry.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_transfer.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_transfer_buffer.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_transfer_listener.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_transfer_receiver.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/transport/uc_transfer_sender.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/uc_data_type.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/uc_dynamic_memory.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/src/uc_error.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/src/uc_stm32_can.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/src/uc_stm32_clock.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/src/uc_stm32_thread.cpp">
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\libuavcan\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\libuavcan\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\libuavcan\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/posix/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/posix/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/posix/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uavcan/libuavcan/libuavcan_drivers/stm32/driver/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/sensors/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\sensors\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/commander/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\commander\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/navigator/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\navigator\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/mavlink/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\mavlink\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/gpio_led/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\gpio_led\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/land_detector/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\land_detector\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/attitude_estimator_q/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\attitude_estimator_q\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/ekf_att_pos_estimator/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\ekf_att_pos_estimator\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/position_estimator_inav/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\position_estimator_inav\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/fw_pos_control_l1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\fw_pos_control_l1\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/fw_att_control/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\fw_att_control\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/mc_att_control/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\mc_att_control\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/mc_pos_control/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\mc_pos_control\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/vtol_att_control/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\vtol_att_control\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/sdlog2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\sdlog2\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/param/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\param\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/systemlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\systemlib\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/systemlib/mixer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\systemlib\mixer\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/controllib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\controllib\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/uORB/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\uORB\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/dataman/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\dataman\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/bottle_drop/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\bottle_drop\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/modules/px4iofirmware/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\modules\px4iofirmware\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/device/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\device\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/stm32/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\stm32\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/stm32/adc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\stm32\adc\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/stm32/tone_alarm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\stm32\tone_alarm\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/led/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\led\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/px4fmu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\px4fmu\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/px4io/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\px4io\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/boards/px4fmu-v2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\boards\px4fmu-v2\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/rgbled/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\rgbled\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/mpu6000/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\mpu6000\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/mpu9250/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\mpu9250\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/lsm303d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\lsm303d\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/l3gd20/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\l3gd20\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/hmc5883/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\hmc5883\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/ms5611/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\ms5611\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/mb12xx/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\mb12xx\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/srf02/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\srf02\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/sf0x/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\sf0x\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/ll40ls/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\ll40ls\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/trone/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\trone\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/gps/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\gps\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/pwm_out_sim/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\pwm_out_sim\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/hott/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\hott\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/hott/hott_telemetry/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\hott\hott_telemetry\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/hott/hott_sensors/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\hott\hott_sensors\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/blinkm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\blinkm\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/airspeed/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\airspeed\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/ets_airspeed/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\ets_airspeed\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/meas_airspeed/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\meas_airspeed\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/frsky_telemetry/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\frsky_telemetry\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/px4flow/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\px4flow\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/oreoled/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\oreoled\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/gimbal/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\gimbal\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/pwm_input/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\pwm_input\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/drivers/camera_trigger/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\drivers\camera_trigger\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/bl_update/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\bl_update\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/mixer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\mixer\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/param/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\param\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/perf/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\perf\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/pwm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\pwm\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/esc_calib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\esc_calib\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/reboot/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\reboot\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/top/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\top\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/config/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\config\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/nshterm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\nshterm\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/mtd/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\mtd\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/dumpfile/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\dumpfile\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/systemcmds/ver/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\systemcmds\ver\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/lib/mathlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\mathlib\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/lib/mathlib/math/filter/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\mathlib\math\filter\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/lib/ecl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\ecl\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/lib/external_lgpl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\external_lgpl\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/lib/geo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\geo\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/lib/geo_lookup/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\geo_lookup\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/lib/conversion/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\conversion\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/lib/launchdetection/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\lib\launchdetection\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/platforms/nuttx/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\platforms\nuttx\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/platforms/nuttx/px4_layer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\platforms\nuttx\px4_layer\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/platforms/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\platforms\common\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/examples/rover_steering_control/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\examples\rover_steering_control\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/firmware/nuttx/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\firmware\nuttx\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/src/firmware/nuttx/gdbinit.in">
+          <Option virtualFolder="CMake Files\src\firmware\nuttx\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/cmake/configs/nuttx_px4fmu-v2_default.cmake">
+          <Option virtualFolder="CMake Files\cmake\configs\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/cmake/nuttx/px4_impl_nuttx.cmake">
+          <Option virtualFolder="CMake Files\cmake\nuttx\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/cmake/nuttx/builtin_commands.c.in">
+          <Option virtualFolder="CMake Files\cmake\nuttx\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/cmake/common/px4_base.cmake">
+          <Option virtualFolder="CMake Files\cmake\common\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/cmake/toolchains/Toolchain-arm-none-eabi.cmake">
+          <Option virtualFolder="CMake Files\cmake\toolchains\" />
+      </Unit>
+      <Unit filename="/home/einar/px4_firmware/src/Firmware/cmake/templates/build_git_version.h.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

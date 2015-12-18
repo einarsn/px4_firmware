@@ -1,0 +1,18 @@
+# Hashes of file build rules.
+4aa1db7d98d3ec532a45db543cd1e8d0 msgs/CommandAttitudeThrust.pb.cc
+15bb05715ff33af70213901d5f16fd49 msgs/CommandMotorSpeed.pb.cc
+cceb20cd320860c46040bff1fad8203b msgs/CommandRateThrust.pb.cc
+ff193c88015835c3a0081d4a8f25c0c3 msgs/CommandRollPitchYawrateThrust.pb.cc
+88044c378a6b9e5c2318e815a2c62f26 msgs/CommandTrajectory.pb.cc
+ec243d797d50ba36f6ffded961a47973 msgs/CommandVelocityTrajectory.pb.cc
+5d71a3167e18903fe8758f61bf491d24 msgs/Float.pb.cc
+9f16f981e640888b6e316309b6fdad68 msgs/HilControl.pb.cc
+f06f8063efcd44734ec0db21fbff8e59 msgs/HilGps.pb.cc
+ed8393e07c4738518d4b7d5359858763 msgs/HilSensor.pb.cc
+b916c6b77b074ba9bc506de220f265b5 msgs/Imu.pb.cc
+0c9e5a4f5dd33584158bea6b7bdf5d4e msgs/MotorSpeed.pb.cc
+030a6760618534acc6c7a6c384bfd4d4 msgs/header.pb.cc
+877bb2b518c01df5b765f102bc2c53a0 msgs/quaternion.pb.cc
+82e81966700159c9f674dfa6c5e68a6b msgs/time.pb.cc
+3d91f742c44731c17c1baaa7d704b15b msgs/vector2d.pb.cc
+80d0cca6dee472aadc6758af407a4c48 msgs/vector3d.pb.cc

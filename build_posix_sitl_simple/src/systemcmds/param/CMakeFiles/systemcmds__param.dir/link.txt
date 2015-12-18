@@ -1,0 +1,2 @@
+/usr/bin/ar cq libsystemcmds__param.a  CMakeFiles/systemcmds__param.dir/param.c.o
+/usr/bin/ranlib libsystemcmds__param.a

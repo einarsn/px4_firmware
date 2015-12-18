@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libmodules__controllib.a  CMakeFiles/modules__controllib.dir/controllib_test_main.cpp.obj CMakeFiles/modules__controllib.dir/test_params.c.obj CMakeFiles/modules__controllib.dir/block/Block.cpp.obj CMakeFiles/modules__controllib.dir/block/BlockParam.cpp.obj CMakeFiles/modules__controllib.dir/uorb/blocks.cpp.obj CMakeFiles/modules__controllib.dir/blocks.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libmodules__controllib.a

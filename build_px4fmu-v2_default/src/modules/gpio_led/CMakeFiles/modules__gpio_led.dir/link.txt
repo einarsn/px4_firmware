@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cq libmodules__gpio_led.a  CMakeFiles/modules__gpio_led.dir/gpio_led.c.obj
+/usr/bin/arm-none-eabi-ranlib libmodules__gpio_led.a
